@@ -17,6 +17,10 @@ h1 {
     text-align: center;
 }
 
+#blurb {
+    text-align: center;
+}
+
 svg {
     width: 60%;
     max-width: 250px;
