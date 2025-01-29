@@ -1,14 +1,14 @@
 console.log("JS file connected");
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("querySelector", function () {
     console.log("JS file connected");
   
-    const almondIcon = document.getElementById("almond-icon");
-    const hazelIcon = document.getElementById("hazel-icon");
-    const pistaIcon = document.getElementById("pista-icon");
-    const macaIcon = document.getElementById("maca-icon");
-    const almondVIcon = document.getElementById("almond-v-icon");
-    const cocoVIcon = document.getElementById("coco-v-icon");
+    const almondIcon = document.querySelector('#almond-icon');
+    const hazelIcon = document.querySelector('#hazel-icon');
+    const pistaIcon = document.querySelector('#pista-icon');
+    const macaIcon = document.querySelector('#maca-icon');
+    const almondVIcon = document.querySelector('#almond-v-icon');
+    const cocoVIcon = document.querySelector('#coco-v-icon');
   
     almondIcon.addEventListener("click", function () {
       console.log("Almond Alert icon clicked!");
@@ -42,38 +42,38 @@ document.addEventListener("DOMContentLoaded", function () {
 
   /*--almond regular--*/
 
-  document.getElementById("rotate-almond-1").addEventListener("mouseenter", function() {
+  document.querySelector("#rotate-almond-1").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(10deg)";
 });
 
-document.getElementById("rotate-almond-1").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-almond-1").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
-document.getElementById("rotate-almond-2").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-almond-2").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(-5deg)";
 });
 
-document.getElementById("rotate-almond-2").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-almond-2").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
 
 /*--pistachio--*/
 
-document.getElementById("rotate-pista-1").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-pista-1").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(10deg)";
 });
 
-document.getElementById("rotate-pista-1").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-pista-1").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
-document.getElementById("rotate-pista-2").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-pista-2").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(-5deg)";
 });
 
-document.getElementById("rotate-pista-2").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-pista-2").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
@@ -82,107 +82,107 @@ document.getElementById("rotate-pista-2").addEventListener("mouseleave", functio
 /*--macadamia--*/
 
 
-document.getElementById("rotate-maca-1").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-maca-1").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(-10deg)";
 });
 
-document.getElementById("rotate-maca-1").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-maca-1").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
-document.getElementById("rotate-maca-2").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-maca-2").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(5deg)";
 });
 
-document.getElementById("rotate-maca-2").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-maca-2").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
 /*--hazelnut--*/
 
 
-document.getElementById("rotate-hazel").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-hazel").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(5deg)";
 });
 
-document.getElementById("rotate-hazel").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-hazel").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
-document.getElementById("rotate-hazelnut").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-hazelnut").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(-10deg)";
 });
 
-document.getElementById("rotate-hazelnut").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-hazelnut").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
 
 /*--almond vegan--*/
 
-document.getElementById("rotate-almond-v-1").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-almond-v-1").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(10deg)";
 });
 
-document.getElementById("rotate-almond-v-1").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-almond-v-1").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
-document.getElementById("rotate-almond-v-2").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-almond-v-2").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(-5deg)";
 });
 
-document.getElementById("rotate-almond-v-2").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-almond-v-2").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
-document.getElementById("rotate-almond-v-leaf1").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-almond-v-leaf1").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(-5deg)";
 });
 
-document.getElementById("rotate-almond-v-leaf1").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-almond-v-leaf1").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
-document.getElementById("rotate-almond-v-leaf2").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-almond-v-leaf2").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(5deg)";
 });
 
-document.getElementById("rotate-almond-v-leaf2").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-almond-v-leaf2").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
 
 /*--coconut vegan--*/
 
-document.getElementById("rotate-coco-1").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-coco-1").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(-10deg)";
 });
 
-document.getElementById("rotate-coco-1").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-coco-1").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
-document.getElementById("rotate-coco-2").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-coco-2").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(5deg)";
 });
 
-document.getElementById("rotate-coco-2").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-coco-2").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
-document.getElementById("rotate-coco-leaf1").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-coco-leaf1").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(-5deg)";
 });
 
-document.getElementById("rotate-coco-leaf1").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-coco-leaf1").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
 
-document.getElementById("rotate-coco-leaf2").addEventListener("mouseenter", function() {
+document.querySelector("#rotate-coco-leaf2").addEventListener("mouseenter", function() {
     this.style.transform = "rotate(-5deg)";
 });
 
-document.getElementById("rotate-coco-leaf2").addEventListener("mouseleave", function() {
+document.querySelector("#rotate-coco-leaf2").addEventListener("mouseleave", function() {
     this.style.transform = "rotate(0deg)";
 });
