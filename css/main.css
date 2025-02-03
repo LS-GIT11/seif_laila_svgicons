@@ -5,6 +5,7 @@
 html {
     margin: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-width: 80px;
 }
 
 h1 {
@@ -34,6 +35,7 @@ svg {
 svg:hover {
     filter: contrast(130%);
     transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
 }
 
 li {
@@ -52,56 +54,45 @@ li {
 /*--ids - flavours--*/
 
 #almond-icon {
-    transition: all 0.2s ease-in-out; 
 }
 
-#almond-icon:hover {
+#almond-icon:hover{
     filter: drop-shadow(0 0 10px rgba(240, 10, 10, 0.6));
-    transform: scale(1.1);
+    
 }
 
 
 #hazel-icon {
-    transition: all 0.2s ease-in-out; 
 }
 
 #hazel-icon:hover {
     filter: drop-shadow(0 0 10px rgba(133, 17, 179, 0.6));
-    transform: scale(1.1);
 }
 
 #pista-icon {
-    transition: all 0.2s ease-in-out; 
 }
 
 #pista-icon:hover {
     filter: drop-shadow(0 0 10px rgba(81, 228, 55, 0.6));
-    transform: scale(1.1);
 }
 
 #maca-icon {
-    transition: all 0.2s ease-in-out; 
 }
 
 #maca-icon:hover {
     filter: drop-shadow(0 0 10px rgba(219, 29, 181, 0.6));
-    transform: scale(1.1);
 }
 
 #almond-v-icon {
-    transition: all 0.2s ease-in-out; 
 }
 
 #almond-v-icon:hover {
     filter: drop-shadow(0 0 10px rgba(240, 10, 10, 0.6));
-    transform: scale(1.1);
 }
 
 #coco-v-icon {
-    transition: all 0.2s ease-in-out; 
 }
 
 #coco-v-icon:hover {
     filter: drop-shadow(0 0 10px rgba(9, 200, 200, 0.6));
-    transform: scale(1.1);
 }

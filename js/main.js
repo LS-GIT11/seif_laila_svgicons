@@ -1,6 +1,5 @@
 console.log('JavaScript is running!');
 
-
 /*--logging icons--*/
 
 /* almond */
@@ -9,6 +8,7 @@ const almondIcon = document.querySelector('#almond-icon');
 almondIcon.addEventListener('click', () => {
     console.log('Almond Alert was clicked!');
 });
+
 
 /* hazelnut */
 const hazelIcon = document.querySelector('#hazel-icon');
@@ -44,8 +44,10 @@ const cocoVIcon = document.querySelector('#coco-v-icon');
 
 cocoVIcon.addEventListener('click', () => {
     console.log('Coconut Charge Vegan was clicked!');
+
 });
 
 
 
-/*-- --*/
+
+/*-- animation unison --*/
