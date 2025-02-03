@@ -1,0 +1,173 @@
+/*-- Animation Keyframes --*/
+
+
+@keyframes popOut {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(1.2) rotate(5deg);
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+.punch{
+    animation: none;
+}
+.punch:hover {
+    animation: popOut .3s cubic-bezier(0.5, 1, 0.5, 1);
+}
+
+
+
+
+
+
+@keyframes rotateCenter {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.rotate-gentle{
+    animation: none;
+}
+.rotate-gentle:hover {
+    animation: rotateCenter .5s ease-in-out;
+}
+
+
+
+
+
+
+@keyframes rotateCenterL {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.rotate-gentle-l{
+    animation: none;
+}
+.rotate-gentle-l:hover {
+    animation: rotateCenterL .5s ease-in-out;
+}
+
+
+
+
+
+
+@keyframes hueShift {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(180deg);
+    }
+    100% {
+        filter: hue-rotate(0deg);
+    }
+}
+.hue-shift{
+    animation: none;
+}
+.hue-shift:hover {
+    animation: hueShift .8s ease-in-out;
+}
+
+
+
+
+
+
+@keyframes hueShiftOpp {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(-180deg);
+    }
+    100% {
+        filter: hue-rotate(0deg);
+    }
+}
+.hue-shift-o{
+    animation: none;
+}
+.hue-shift-o:hover {
+    animation: hueShiftOpp 1.0s ease-in-out;
+}
+
+
+
+
+
+
+@keyframes blueCharge {
+    0% {
+        filter: brightness(1) drop-shadow(0 0 0 #fff);
+    }
+    50% {
+        filter: brightness(1.25) drop-shadow(0 0 10px #038c91);
+    }
+    100% {
+        filter: brightness(1) drop-shadow(0 0 0 #fff);
+    }
+}
+.blue-charge{
+    animation: none;
+}
+.blue-charge:hover {
+    animation: blueCharge .6s ease-in;
+}
+
+
+
+
+
+
+@keyframes shakeIt {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-7px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(7px);
+    }
+}
+.shake{
+    animation: none;
+}
+.shake:hover {
+    animation: shakeIt 0.25s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
