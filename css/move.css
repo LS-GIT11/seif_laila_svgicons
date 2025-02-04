@@ -15,7 +15,7 @@
 .punch{
     animation: none;
 }
-.punch:hover {
+.punch.hover {
     animation: popOut .3s cubic-bezier(0.5, 1, 0.5, 1);
 }
 
@@ -38,7 +38,7 @@
 .rotate-gentle{
     animation: none;
 }
-.rotate-gentle:hover {
+.rotate-gentle.hover {
     animation: rotateCenter .5s ease-in-out;
 }
 
@@ -61,7 +61,7 @@
 .rotate-gentle-l{
     animation: none;
 }
-.rotate-gentle-l:hover {
+.rotate-gentle-l.hover {
     animation: rotateCenterL .5s ease-in-out;
 }
 
@@ -84,7 +84,7 @@
 .hue-shift{
     animation: none;
 }
-.hue-shift:hover {
+.hue-shift.hover {
     animation: hueShift .8s ease-in-out;
 }
 
@@ -107,7 +107,7 @@
 .hue-shift-o{
     animation: none;
 }
-.hue-shift-o:hover {
+.hue-shift-o.hover {
     animation: hueShiftOpp 1.0s ease-in-out;
 }
 
@@ -130,7 +130,7 @@
 .blue-charge{
     animation: none;
 }
-.blue-charge:hover {
+.blue-charge.hover {
     animation: blueCharge .6s ease-in;
 }
 
@@ -153,7 +153,7 @@
 .shake{
     animation: none;
 }
-.shake:hover {
+.shake.hover {
     animation: shakeIt 0.25s ease-in-out;
 }
 
