@@ -51,3 +51,20 @@ cocoVIcon.addEventListener('click', () => {
 
 
 /*-- animation unison --*/
+const nutIcons = document.querySelectorAll('svg');
+
+nutIcons.forEach(function(icon) {
+    icon.addEventListener('mouseenter', function() {
+        const allParts = this.querySelectorAll('g');
+        allParts.forEach(function(parts) {
+            parts.classList.add('hover');
+        });
+    });
+
+    icon.addEventListener('mouseleave', function() {
+        const allParts = this.querySelectorAll('g');
+        allParts.forEach(function(parts) {
+            parts.classList.remove('hover');
+        });
+    });
+});
